@@ -3,7 +3,7 @@ int heh()
 {
 int a, b, c, d;
 a=b=c=d=0;
-printf("%d %d %d %d\n",a,b,c,d);
+printf("%d %d %d %d\n",a,b,c,d); // test printfowania
 return 0;
 }
 int lol()
