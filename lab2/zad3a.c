@@ -10,7 +10,7 @@
 
 #define znaki 4 // po ile znakow pakowane do jednej liczby
 int key(int a){
-    return -a;     // szyfruje liczbe
+    return a;     // szyfruje liczbe
 }
 int paczka(int buf[znaki]){
   int i, pacz=0;    // pakuje caly bufor do jednej liczby

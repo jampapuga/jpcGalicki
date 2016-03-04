@@ -8,9 +8,9 @@
 
 #include <stdio.h>
 
-#define znaki 4
+#define znaki 4 // po ile znakow pakowane do jednej liczby
 int key_ret(int a){
-    return -a;   // po ile znakow pakowane do jednej liczby
+    return a;   // odszyfrowuje
 }
 void print_paczka(int n){
   int i;     // wydruk wszystkich znakow z paczki
