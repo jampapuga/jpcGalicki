@@ -1,11 +1,10 @@
-sources = *
+sources = obsluga_bazy.c
 
 programs = $(basename $(sources))
 objects = $(addsuffix .o, $(programs))
 
-CFLAGS = -Wall -std=c99 -I /opt/X11/include
-LDFLAGS = -L /opt/X11/lib
-LDLIBS = -lGL -lGLU -lglut -lm
+CFLAGS = -Wall -std=c99
+LDLIBS = -lm
 
 .PHONY : clean
 clean :
