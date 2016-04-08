@@ -40,10 +40,11 @@ int porownaj(const void * a, const void * b)
 
 void  sortuj_spis(void) {
 qsort(spis, IL_OSOB, sizeof(osoba), porownaj);
-	for(int i=1;i<=IL_OSOB;i++){
-printf("%s ", spis[i].imie);
-printf("%s ", spis[i].nazwisko);
-printf("%i\n", spis[i].pensja);
+FILE* baza2=fopen("posortowana_baza","w");
+  for(int i=1;i<IL_OSOB;i++){
+fprintf(baza2,"%s ", spis[i].imie);
+fprintf(baza2,"%s ", spis[i].nazwisko);
+fprintf(baza2,"%i\n", spis[i].pensja);
 
 
 }
