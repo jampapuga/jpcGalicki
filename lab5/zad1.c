@@ -9,5 +9,5 @@ void main(){
 	printf("podaj dwie liczby które chcesz podziielić:\n");
 	scanf("%d %d", &a, &b);
 	divide(a,b,&iloraz, &reszta);
-	printf("%d %d \n", iloraz, reszta );
+	printf("Iloraz %d Reszta %d \n", iloraz, reszta );
 }
