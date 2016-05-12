@@ -20,6 +20,19 @@
   * [x] [zadanie 2](lab3/zad2.c) - prawidłowa kompilacja
   * [x] [zadanie 3](lab3/zad3.c) - prawidłowa kompilacja
   
+ **Tabelka z zadania nr 1 :**
+
+	|    TYP      |       MINIMUM       |       MAXIMUM       |      ZIARNO     |      PRECYZJA    |      WE/WY     |
+	|-------------|---------------------|---------------------|-----------------|------------------|----------------|
+	|SHORT        |               -32768|                32767|                 |                  |       %i       |
+	|INTEGER      |          -2147483648|           2147483647|                 |                  |       %i       |
+	|LONG         | -9223372036854775808|  9223372036854775807|                 |                  |       %li      |
+	|LONG LONG    | -9223372036854775808|  9223372036854775807|                 |                  |       %lli     |
+	|FLOAT        |         1.175494e-38|         3.402823e+38|     1.192093e-07|                 6|   %f lub %e    |
+	|DOUBLE       |        2.225074e-308|        1.797693e+308|     2.220446e-16|                15|  %lf lub %le   |
+	|LONG DOUBLE  |       3.362103e-4932|       1.189731e+4932|     1.084202e-19|                18|   %Lf lub %Le  | 
+  
+  
 4. [Laboratorium 4](lab4) [(treść zadań)](http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs04/):
   * [x] [zadanie 1](lab4/zad1.c) - prawidłowa kompilacja
   * [x] [zadanie 2](lab4/zad2.c) - prawidłowa kompilacja
