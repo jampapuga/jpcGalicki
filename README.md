@@ -30,7 +30,7 @@
 
 6. [Laboratorium 6](lab6) [(treść zadań)](http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs06/):
   * [x] [zadanie 1](lab6/zad1.c) - prawidłowa kompilacja
-  * [x] zadanie 2 / zadanie 3:
+  * [x] zadanie 2 / zadanie 3: - kompilacja  po samym wpisaniu "make" i output jest do pliku a.out
     * [funkcje.c](lab6/funkcje.c)
     * [funkcje.h](lab6/funkcje.h)
     * [glowny.c](lab6/glowny.c)
