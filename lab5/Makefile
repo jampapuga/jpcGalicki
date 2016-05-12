@@ -1,4 +1,4 @@
-sources = obsluga_bazy.c
+sources = obsluga_bazy.c zad2b.c obsluga2.c
 
 programs = $(basename $(sources))
 objects = $(addsuffix .o, $(programs))
