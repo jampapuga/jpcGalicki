@@ -20,7 +20,7 @@
   * [x] [zadanie 2](lab3/zad2.c) - prawidłowa kompilacja
   * [x] [zadanie 3](lab3/zad3.c) - prawidłowa kompilacja
   
- **Tabelka z zadania nr 1 :**
+     **Tabelka z zadania nr 1 :**
 
 	|    TYP      |       MINIMUM       |       MAXIMUM       |      ZIARNO     |      PRECYZJA    |      WE/WY     |
 	|-------------|---------------------|---------------------|-----------------|------------------|----------------|
