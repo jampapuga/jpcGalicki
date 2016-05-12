@@ -1,5 +1,4 @@
-
-//SprawdziÄ‡, wykonujÄ…c odpowiednie testy, jak dziaÅ‚ajÄ… operacje rzutowania z typÃ³w ,,mniejszych'' do ,,wiÄ™kszych'' i odwrotnie. Na przykÅ‚ad, czemu sÄ… rÃ³wne:
+//Sprawdziæ, wykonuj¹c odpowiednie testy, jak dzia³aj¹ operacje rzutowania z typów ,,mniejszych'' do ,,wiêkszych'' i odwrotnie. Na przyk³ad, czemu s¹ równe:
 //(int)FLT_MAX
 //(int)DBL_MAX
 //(double)LDBL_MAX
@@ -7,14 +6,14 @@
 #include <stdio.h>
 #include <limits.h>
 #include <float.h>
-#define printf __mingw_printf // gdy pracujemy na windowsie
+#include <stdint.h>
 int main()
 {
-  printf("FLT_MAX -> (int)FLT_MAX:\n%e -> %i\n\n", FLT_MAX, (int)FLT_MAX);
+  printf("FLT_MAX -> (int)FLT_MAX:\n%e -> %i\n\n", FLT_MAX, (int32_t)FLT_MAX);
   //wyznacza maksymalna (czyli jak najblizsza zadanej(float)) liczbe w innym typie (int)
   printf("INT_MAX -> (float)INT_MAX:\n%i -> %e\n\n", INT_MAX, (float)INT_MAX);
   //wypisuje maksymalna wartosc inta (float > int)
-  printf("DBL_MAX -> (int)DBL_MAX:\n%e -> %i\n", DBL_MAX, (int)DBL_MAX);
+  printf("DBL_MAX -> (int)DBL_MAX:\n%e -> %i\n", DBL_MAX, (int32_t)DBL_MAX);
   //wyznacza maksymalna (czyli jak najblizsza zadanej(double)) liczbe w innym typie (int)
   printf("Wartosc double max wychodzi poza maksymalna wartosc inta, zatem drukowana jest wartosc maksymalna inta.\n\n");
   printf("INT_MAX -> (double)INT_MAX:\n%i -> %e\n\n", INT_MAX, (double)INT_MAX);

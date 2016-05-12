@@ -1,21 +1,28 @@
-// W ka≈ºdym typie liczbowym znale≈∫ƒá mo≈ºliwie ma≈Çe dane,
-// na kt√≥rych wynik jakiego≈õ dzia≈Çania matematycznego jest ju≈º niepoprawny.
+// W kaødym typie liczbowym znaleüÊ moøliwie ma≥e dane, na ktÛrych wynik jakiegoú dzia≥ania matematycznego jest juø niepoprawny.
 
 #include <stdio.h>
 int main()
 {
-  short a;
-  printf("short: %i\n", a=555555+444444);
-  int b;
-  printf("int: %i\n", b=40000000000+40000000000);
-long c;
-printf("long: %li\n", c=22222222222222222+222222222222222);
-long long d;
-printf("long long: %lli\n", d=12345678900000000+98765432100000000);
-float e;
-printf("float: %f\n", e=0.00000005/2.0);
-double f;
-printf("double: %lf\n", f=0.00000000003/5.0);
-long double g;
-printf("long double: %Lf\n", g=0.0000000000000000452/2.0);
+  short shr=1;
+  short shr2=1/2;
+  printf("Short: %i / 2 = %i\n", shr, shr2);
+  int in=1;
+  int in2=in/4;
+  printf("Int: %i / 4 = %i\n", in, in2);
+  long lg=1;
+  long lg2=lg+0.5;
+  printf("Long: %li + 0.5 = %li\n", lg, lg2);
+  long long llg=1;
+  long long llg2=llg+0.99;
+  printf("Long long: %lli + 0.99 = %lli\n", llg, llg2);
+  float fl=0.000001;
+  float fl2=fl/2.0;
+  printf("Float: %f / 2 = %f\n", fl, fl2);
+  double dl=0.000003;
+  double dl2=dl/4.0;
+  printf("Double: %f / 4 = %f\n", dl, dl2);
+  long double ldl=0.00000000000000005;
+  long double ldl2=dl/4.0;
+  printf("Long double: %Lf / 4 = %Lf\n", ldl, ldl2);
+  return 0;
 }
