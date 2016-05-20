@@ -17,8 +17,7 @@
 
 3. [Laboratorium 3](lab3) [(treść zadań)](http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs03/):
   * [x] [zadanie 1](lab3/zad1.c) - prawidłowa kompilacja
-  * [x] [zadanie 2](lab3/zad2.c) - prawidłowa kompilacja
-  * [x] [zadanie 3](lab3/zad3.c) - prawidłowa kompilacja
+  * [x] [zadanie 2](lab3/zad2.c) - prawidłowa kompilacja  * [x] [zadanie 3](lab3/zad3.c) - prawidłowa kompilacja
   
      **Tabelka z zadania nr 1 :**
 
