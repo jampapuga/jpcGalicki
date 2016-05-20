@@ -53,7 +53,7 @@
   * [x] [zadanie 2 i zadanie 3](lab7/zad23.c) - prawidłowa kompilacja
 
 8. [Laboratorium 8](lab8) [(treść zadań)](http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs08/):
-  * [x] [zadanie 1](lab8/zad1.c) - prawidłowa kompilacja
-  * [x] [zadanie 2](lab8/zad2.c) - prawidłowa kompilacja
+  * [x] [zadanie 1](lab8/zad1.c) - prawidłowa kompilacja przy samym wpisaniu make, po wpisaniu make All kompiluja sie tylk ozadania 3 i 4
+  * [x] [zadanie 2](lab8/zad2.c) - prawidłowa kompilacja przy samym wpisaniu make, po wpisaniu make All kompiluja sie tylk ozadania 3 i 4
   * [x] [zadanie 3](lab8/zad3.c) - prawidłowa kompilacja
   * [x] [zadanie 4](lab8/zad4.c) - prawidłowa kompilacja
