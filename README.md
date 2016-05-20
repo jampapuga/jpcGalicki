@@ -62,3 +62,4 @@
   * [x] [zadanie 1](lab9/zad1.php) - prawidłowa kompilacja
   * [x] [zadanie 2](lab9/zad2.php) - prawidłowa kompilacja
   * [x] [zadanie 3](lab9/zad3.php) - prawidłowa kompilacja
+  * Tutaj można sprawdzić działanie zadań http://sigma.inf.ug.edu.pl/~pgalicki2/data.html
