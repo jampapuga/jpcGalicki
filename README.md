@@ -57,3 +57,8 @@
   * [x] [zadanie 2](lab8/zad2.c) - prawidłowa kompilacja przy samym wpisaniu make, po wpisaniu make All kompiluja sie tylk ozadania 3 i 4
   * [x] [zadanie 3](lab8/zad3.c) - prawidłowa kompilacja
   * [x] [zadanie 4](lab8/zad4.c) - prawidłowa kompilacja
+
+9. [Laboratorium 9](lab9) [(treść zadań)](http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs09/):
+  * [x] [zadanie 1](lab9/zad1.php) - prawidłowa kompilacja
+  * [x] [zadanie 2](lab9/zad2.php) - prawidłowa kompilacja
+  * [x] [zadanie 3](lab9/zad3.php) - prawidłowa kompilacja
